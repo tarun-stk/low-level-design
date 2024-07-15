@@ -1,5 +1,26 @@
 package com.stk.observer;
 
+/*The Observer Design Pattern is a behavioral design pattern that defines a one-to-many relationship
+between objects, allowing one object (the subject) to notify multiple other objects (the observers)
+of any state changes. This pattern is often used to implement distributed event-handling systems.
+
+Key Components:
+Subject: The object that holds the state and sends notifications to observers.
+Observer: The objects that need to be notified of state changes in the subject.
+
+When to Use the Observer Pattern:
+When an object’s state change needs to be communicated to multiple other objects.
+When the number of observers can change dynamically.
+When you want to decouple the subject and observers, making them independent of each other.
+
+Advantages of Observer Pattern:
+Decoupling: Subjects and observers are loosely coupled, allowing changes to either without affecting the other.
+Flexibility: Observers can be added or removed at runtime, allowing dynamic changes to the system behavior.
+Reusability: Observers can be reused across different subjects.
+
+Disadvantages of Observer Pattern:
+Performance Overhead: Notifying many observers can be time-consuming, potentially leading to performance issues.
+Complexity: Managing dependencies and ensuring consistent state across observers can be complex.*/
 public class Youtube {
     public static void main(String[] args) {
         /*tata a channel(subject) and it will send notification to all its subscribers*/
