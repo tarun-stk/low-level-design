@@ -4,14 +4,16 @@ package com.stk.compositedp;
  programming languages. It allows you to compose objects into tree structures to represent part-whole
  hierarchies. This pattern lets clients treat individual objects and compositions of objects uniformly.
 
- Key Concepts
+Key Concepts
 Component: An interface or abstract class that defines the common operations for both simple and complex objects.
 Leaf: A class that represents a simple, indivisible object in the composition. Implements the Component interface.
 Composite: A class that represents a complex object (a composition of Leaf and/or Composite objects).
     Implements the Component interface and provides methods to add, remove, and access child components.
 
 How It Works:
-Uniformity: Both individual objects (Leaf) and composite objects (Composite) implement the same interface (Component). This allows clients to interact with these objects without worrying about whether they are dealing with a single object or a collection of objects.
+Uniformity: Both individual objects (Leaf) and composite objects (Composite) implement the same interface (Component).
+    This allows clients to interact with these objects without worrying about whether they are dealing with a single
+    object or a collection of objects.
 Recursive Composition: A Composite can contain other Composite objects, allowing for the creation of complex tree structures.*/
 public class CompositeTest {
     public static void main(String[] args) {
@@ -36,6 +38,15 @@ public class CompositeTest {
 
         computer.addComponent(cabinet);
         computer.addComponent(peripheral);
+
+        /*                              computer
+        *                               /       \
+        *                           cabinet      peripheral
+        *                           / \            /    \
+        *                motherBoard   hd       mouse   monitor
+        *                   /  \
+                          ram   cpu
+         */
 
         computer.showPrice();
         /*output:

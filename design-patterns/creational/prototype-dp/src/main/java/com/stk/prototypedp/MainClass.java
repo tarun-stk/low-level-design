@@ -3,7 +3,24 @@ package com.stk.prototypedp;
 /*The Prototype Design Pattern is a creational design pattern that allows you to create new
 objects by copying an existing object, known as the prototype. This pattern is particularly
 useful when the process of creating a new instance of a class is complex or computationally
-expensive. Instead of constructing a new instance from scratch, you can clone an existing instance.*/
+expensive. Instead of constructing a new instance from scratch, you can clone an existing instance.
+
+When to Use the Prototype Pattern:
+When creating an instance of a class is expensive or complex.
+When you need to create a large number of objects that differ only slightly in their configuration.
+When you want to reduce the number of subclasses by cloning existing objects and modifying their properties.
+
+Advantages of Prototype Pattern:
+Reduces the need for subclasses: Instead of having multiple subclasses for different configurations,
+    you can have a single class and create variations by cloning.
+Efficient object creation: Cloning an object can be more efficient than creating a new instance,
+    especially if the new instance requires costly operations.
+
+Disadvantages of Prototype Pattern:
+Complexity: Implementing cloning can be complex, especially when objects have circular references or
+    non-cloneable resources.
+Hidden Dependencies: Cloning can introduce hidden dependencies between the original and cloned objects if
+    not handled properly.*/
 public class MainClass {
     public static void main(String[] args) {
         BookShop bs1 = new BookShop();
