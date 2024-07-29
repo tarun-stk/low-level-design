@@ -5,13 +5,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../adapter-dp/pom.xml" />
-        <option value="$PROJECT_DIR$/../proxy-dp/pom.xml" />
-        <option value="$PROJECT_DIR$/../../behavioral/observer/pom.xml" />
-        <option value="$PROJECT_DIR$/../../behavioral/strategy-dp/pom.xml" />
-        <option value="$PROJECT_DIR$/../../creational/builder-dp/pom.xml" />
-        <option value="$PROJECT_DIR$/../../creational/factory-dp/pom.xml" />
-        <option value="$PROJECT_DIR$/../../creational/abstract-factory-dp/pom.xml" />
       </list>
     </option>
   </component>
