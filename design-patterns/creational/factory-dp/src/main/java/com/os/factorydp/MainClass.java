@@ -15,8 +15,8 @@ public class MainClass {
         * Now we can simply pass whatever os we need, and we're not manually creating any objects
         * simply pass which kind of os you need and someone will give it to you
         * someone is called factory, this is good practice*/
-        /*I just need an android phone, i don't who is implementing it maybe samsung, moto anythign
-        * I just android phone and factory will give it to me*/
+        /*I just need an android phone, i don't who is implementing it maybe samsung, moto anything
+        * I just need android phone and factory will give it to me*/
         OSFactory factory = new OSFactory();
         OS os = factory.getInstance("android");
         os.specifications();

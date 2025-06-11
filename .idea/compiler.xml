@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="observer" />
+        <module name="abstract-factory-dp" />
+        <module name="prototype-dp" />
+        <module name="builder-dp" />
+        <module name="hashmap-implementation" />
+        <module name="strategy-dp" />
+        <module name="tic-tac-toe" />
+        <module name="adapter-dp" />
+        <module name="proxy-dp" />
+        <module name="composite-dp" />
+        <module name="factory-dp" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

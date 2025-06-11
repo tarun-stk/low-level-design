@@ -30,14 +30,15 @@ public class Youtube {
         Subscriber s2 = new Subscriber("Varun");
         Subscriber s3 = new Subscriber("Vishwa");
 
-        tata.subscribers.add(s1);
-        tata.subscribers.add(s2);
-        tata.subscribers.add(s3);
-
+        /*subscribers subscribing to channel tata*/
+        tata.subscribe(s1);
+        tata.subscribe(s2);
+        tata.subscribe(s3);
         s1.channel = tata;
         s2.channel = tata;
         s3.channel = tata;
 
+        /*channel publishing a new video, which will notify all the subscribers */
         tata.publishVideo("Tiago");
     }
 }

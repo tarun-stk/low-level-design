@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/design-patterns/behavioral/observer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/behavioral/observer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/behavioral/strategy-dp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/behavioral/strategy-dp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/creational/abstract-factory-dp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/creational/abstract-factory-dp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/creational/builder-dp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/creational/builder-dp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/creational/factory-dp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/creational/factory-dp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/creational/prototype-dp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/creational/prototype-dp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/structural/adapter-dp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/structural/adapter-dp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/structural/composite-dp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/structural/composite-dp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/structural/proxy-dp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design-patterns/structural/proxy-dp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hashmap-implementation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hashmap-implementation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tic-tac-toe/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tic-tac-toe/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
