@@ -1,0 +1,69 @@
++----------------+
+|  Vehicle       |
++----------------+
+| -licenseNumber |
+| -type          |
++----------------+
+
++---------------------+
+|  ParkingSpot        |
++---------------------+
+| -number             |
+| -isFree             |
+| -vehicle            |
++---------------------+
+| +assignVehicle()    |
+| +removeVehicle()    |
++---------------------+
+
++---------------------+
+|  ParkingFloor       |
++---------------------+
+| -floorNumber        |
+| -parkingSpots       |
++---------------------+
+| +getFreeSpot(type)  |
++---------------------+
+
++---------------------+
+|  Ticket             |
++---------------------+
+| -ticketNumber       |
+| -vehicle            |
+| -entryTime          |
+| -spot               |
++---------------------+
+
++---------------------+
+|  Payment            |
++---------------------+
+| -amount             |
+| -timestamp          |
+| -paymentMode        |
++---------------------+
+
++---------------------+
+|  EntrancePanel      |
++---------------------+
+| +generateTicket()   |
++---------------------+
+
++---------------------+
+|  ExitPanel          |
++---------------------+
+| +scanTicket()       |
+| +makePayment()      |
++---------------------+
+
++---------------------+
+|  ParkingLot (SINGLETON) |
++---------------------+
+| -name               |
+| -address            |
+| -floors             |
+| -entrancePanels     |
+| -exitPanels         |
++---------------------+
+| +getInstance()      |
+| +getFreeSpotCount() |
++---------------------+

@@ -1,0 +1,32 @@
+Functional Requirements:
+    Entry and exit gates
+
+    Ticket generation at entry
+
+    Parking spot assignment (based on vehicle type)
+
+    Payment at exit
+
+    Spot availability tracking
+
+Vehicle Types:
+    Bike
+
+    Car
+
+    Truck
+
+Parking Spot Types:
+    BikeSpot
+
+    CarSpot
+
+    TruckSpot
+
+Actors:
+    Vehicle
+
+    Parking Attendant (Optional)
+
+    System
+

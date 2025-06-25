@@ -1,0 +1,15 @@
+ParkingLot
+
+ParkingFloor
+
+ParkingSpot
+
+Vehicle
+
+Ticket
+
+Payment
+
+EntrancePanel and ExitPanel
+
+DisplayBoard (Optional)

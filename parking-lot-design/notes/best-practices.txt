@@ -1,0 +1,8 @@
+Principle	            Applied Where / How
+OOP (Abstraction)	    Vehicle, Spot, Ticket, Panels hide internal logic
+Encapsulation	        Spot assigns/removes vehicle; Floor finds spots
+Single Responsibility	Each class has one responsibility (e.g., Ticket only tracks entry info)
+Open/Closed	            New vehicle/spot types can be added without changing logic
+Modularity	            You can reuse Payment, Ticket, etc. in other systems
+Scalability	            Adding more floors, panels, or spot types is easy
+Extensibility	        Can add features like reserved spots, mobile app integration
